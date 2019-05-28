@@ -37,7 +37,7 @@ Handy Visual Studio Code Snippets
 **Description:** Create a method constructor with two arguments  
 **Shortcut:** ctor2 
 
-### 1arg.snippet
+### 3arg.snippet
 **Description:** Create a method constructor with three arguments  
 **Shortcut:** ctor3
 
