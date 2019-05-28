@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>If IsNullOrWhiteSpace Throw ArgumentException</Title>
+      <Description>
+        Throw ArgumentException if arg reports string.IsNullOrWhiteSpace
+      </Description>
+      <Shortcut>sarg</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>arg</ID>
+          <Default>value</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[if (string.IsNullOrWhiteSpace($arg$)){
+throw new ArgumentNullException(nameof($arg$));
+}
+    $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
