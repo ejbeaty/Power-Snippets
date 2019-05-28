@@ -10,28 +10,20 @@ Handy Visual Studio Code Snippets
 ## Snippets
 ### argNullCheck.snippet
 **Description:** Check an argument for a null value and throw an exception if neccessary
-
-*Shortcut:** arg
-
-*Throws:** ArgumentNullException
+**Shortcut:** arg
+**Throws:** ArgumentNullException
 
 ### stringNullCheck.snippet
 **Description:** Check if a string argument is null or empty and throw an exception if it is
-
-*Shortcut:** sarg
-
-*Throws:** ArgumentNullException
+**Shortcut:** sarg
+**Throws:** ArgumentNullException
 
 ### guidNullCheck.snippet
 **Description:** Check if a guid argument is Guid.Empty and throw an exception if it is
-
-*Shortcut:** garg
-
-*Throws:** ArgumentNullException
+**Shortcut:** garg
+**Throws:** ArgumentNullException
 
 ### setOrThrowArgNull.snippet
 **Description:** Check if an argument is null and throw an exception if it is otherwise set the value of a property 
-
 **Shortcut:** set
-
 **Throws:** ArgumentNullException
