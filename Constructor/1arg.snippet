@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>ctor - 1 arg</Title>
+			<Shortcut>ctor1</Shortcut>
+			<Description>Code snippet for constructor with one arg</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal Editable="false">
+					<ID>classname</ID>
+					<ToolTip>Class name</ToolTip>
+					<Function>ClassName()</Function>
+					<Default>ClassNamePlaceholder</Default>
+				</Literal>
+				<Literal Editable="true">
+					<ID>arg1Type</ID>
+					<ToolTip>Argument Type</ToolTip>
+					<Default>argType</Default>
+				</Literal>
+				<Literal Editable="true">
+					<ID>arg1Name</ID>
+					<ToolTip>Argument Name</ToolTip>
+					<Default>argName</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[public $classname$ ($arg1Type$ $arg1Name$)
+	{
+		$end$
+	}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
