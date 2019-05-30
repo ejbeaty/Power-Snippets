@@ -44,3 +44,7 @@ Handy Visual Studio Code Snippets
 ### 4arg.snippet
 **Description:** Create a method constructor with four arguments  
 **Shortcut:** ctor4
+
+### base1.snippet
+**Description:** Create a method constructor with 1 argument that is then passed to the base class
+**Shortcut:** base
